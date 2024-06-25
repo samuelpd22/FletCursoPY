@@ -1,6 +1,8 @@
-import flet
+import flet as ft
 
-def main(page:flet.Page):
-    ola = flet.Text(value)
+def main(page:ft.Page):
+    ola = ft.Text(value="Ola ,mundo!", size=30)
+    page.controls.append(ola)
+    page.update()
 
-flet.app(target=main)
+ft.app(target=main)
