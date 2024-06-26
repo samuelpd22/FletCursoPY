@@ -19,7 +19,8 @@ def main(page:ft.Page):
                 height=100,
                 alignment=ft.alignment.center,
                 bgcolor=ft.colors.AMBER_100,
-                border=ft.border.all(2, ft.colors.AMBER_600),)
+                border=ft.border.all(2, ft.colors.AMBER_600),
+                border_radius=ft.border_radius.all(8))
                 
                 )
         
